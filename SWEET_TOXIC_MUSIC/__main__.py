@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await WEREWOLF_DEMON.start()
     try:
-        await WEREWOLF_DEMON.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await WEREWOLF_DEMON.stream_call("https://graph.org/file/7e7c0564bfb98e9ec652f.jpg")
     except NoActiveGroupCall:
         LOGGER("SWEET_TOXIC_MUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
